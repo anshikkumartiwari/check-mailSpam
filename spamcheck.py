@@ -5,7 +5,7 @@ if os.path.exists('.env'):
     from dotenv import load_dotenv
     load_dotenv()
 api_key = os.getenv("API_KEY")
-prompt = os.getenv("PROMPT")
+#prompt = os.getenv("PROMPT")
 
 genai.configure(api_key=api_key)
 
